@@ -4,12 +4,16 @@ An tool for ACME that returns the authz URL associated with a given challenge UR
 
 # Install
 
+```
   go get -u github.com/voutasaurus/authz
-  
+```
+
 # Usage
 
+```
   $ authz "https://acme-v01.api.letsencrypt.org/acme/challenge/XXXXXXXX/iiiiiiii"
   https://acme-v01.api.letsencrypt.org/acme/authz/XXXXXXXX
+```
 
 # Why
 
